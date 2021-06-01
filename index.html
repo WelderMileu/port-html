@@ -10,7 +10,7 @@
       	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	</head>
 	<body>
-		<nav class="nav flex flex-row justify-between items-center p-5 py-5 px-8 md:px-20 shadow-lg bg-white fixed top-0 w-full" style="z-index: 1000">
+		<nav class="nav flex flex-row justify-between items-center p-5 py-5 px-8 md:px-20 bg-white fixed top-0 w-full" style="z-index: 1000">
 			<div class="logo">
 				<span class="material-icons text-gray-400" style="font-size: 50px">
 					security
@@ -25,25 +25,27 @@
 				</ul>
 			</div>
 
-			<div class="menu-bar bg-green-400 rounded-full p-4 text-white flex justify-center items-center shadow-xl">
+			<div class="menu-bar bg-green-400 rounded-full p-4 text-white flex justify-center items-center shadow">
 				<span class="fas fa-bars text-3xl"></span>
 			</div>			
 		</nav>
 
-		<section class="mt-56 px-14 md:px-20">
-			<image src="images/banner-image.svg" class="absolute right-20 hidden md:block" style="top: 160px;z-index: -1; width: 600px;"></image>
+		<section class="mt-44 px-14 md:px-32">
+			<image src="images/banner-image.svg" class="absolute right-10 hidden md:block" style="top: 160px;z-index: -1; width: 750px;"></image>
 
-			<h1 class="text-gray-500 text-6xl font-thin max-w-3xl">
+			<h1 class="text-gray-500 text-6xl max-w-xl">
 				<span class="text-green-500 font-semibold">Developer</span> and Design
 			</h1>
 
-			<p class="text-gray-500 max-w-xl mt-10 text-2xl font-thin">
-				Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Molestias molestiae obcaecati perspiciatis.
-			</p>
+
 			
 			<button class="bg-green-500 px-16 py-5 rounded-lg font-semibold text-white text-lg mt-16 shadow-xl" style="outline: none">
 				Get Started	
 			</button>
+
+			<p class="text-gray-500 max-w-md mt-10 text-xl font-thin">
+				Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Molestias molestiae obcaecati perspiciatis.
+			</p>
 
 			<div class="sociais mt-16 flex justify-between max-w-xs">
 				<a href="" class="border border-gray-400 w-16 h-16 md:w-20 md:h-20 rounded-full text-gray-400 flex justify-center items-center">
@@ -103,15 +105,24 @@
 		</article>
 
 		<section class="flex flex-col justify-center items-center mt-20">
-			<div class="flex flex-col justify-center items-center">
-				<div class="w-36 h-36 border border-gray-400 rounded-full"></div>
-				<h3 class="text-xl font-bold mt-5 text-gray-900">Ronaldo Developer</h3>
-				<span class="text-lg text-gray-500">Developer and Design</span>
+			<div class="mb-24">
+				<h1 class="text-5xl text-gray-500 font-semibold">
+					<span class="text-green-500">Quem</span> 
+					sou?</h1>
 			</div>
 
-			<div class="max-w-lg pt-8 text-center">
-				<p class="text-xl font-thin text-gray-600 text-center">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Velit architecto quasi quo voluptatibus ex voluptates ab dicta quidem.</p>
+			<div class="flex flex-col md:flex-row px-10">
+				<div class="flex flex-col justify-center items-center">
+					<div class="w-36 h-36 border border-gray-400 rounded-full"></div>
+					<h3 class="text-xl font-bold mt-5 text-gray-900">Ronaldo Developer</h3>
+					<span class="text-lg text-gray-500">Developer and Design</span>
+				</div>
+	
+				<div class="max-w-md pt-8 text-center pl-0 md:pl-20">
+					<p class="text-xl font-thin text-gray-600 text-center md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Velit architecto quasi quo voluptatibus ex voluptates ab dicta quidem.</p>
+				</div>
 			</div>
+			
 		</section>
 	</body>
 </html>
