@@ -12,8 +12,11 @@
 	<body>
 
 		<nav class="py-8 sm:py-10 px-5 sm:px-24 flex flex-row justify-between items-center">
-			<img src="images/logo.png" alt="logo">	
+			<!-- logo -->
+			<img src="images/logo.png" alt="logo" class="w-16 sm:w-20">	
+			
 			<div class="w-80 hidden sm:block">
+				<!-- Menu -->
 				<ul class="flex flex-row justify-around text-gray-500 font-semibold">
 					<li>Inicio</li>
 					<li>Sobre-mim</li>
@@ -23,25 +26,27 @@
 			</div>
 		</nav>
 
+		<!-- header -->
 		<section class="mx-10 sm:mx-32">
 			<div class="mt-0 sm:mt-16">
 				<div class="flex flex-col p-5 sm:p-0">
 					<div class="max-w-sm">
 						<header>
-							<h1 class="text-3xl sm:text-6xl font-bold text-gray-700">
+							<h1 class="text-4xl sm:text-6xl font-black text-gray-700">
 								Programador Full-Stack e UX / UI
 							</h1>	
 						</header>
 					</div>
 				
-					<div class="mt-5 max-w-sm">
-						<p class="mt-5 text-xl w-80 font-normal text-gray-400">
+					<div class="mt-0 sm:mt-5 max-w-sm">
+						<p class="mt-5 text-xl w-lg sm:w-80 font-normal text-gray-400">
 							Bem vido ao meu portifolio me chamo welder e sou programador full-stack.
 						</p>	
 					</div>
 				</div>
 
-				<div class="mt-10">
+				<!-- redes sociais -->
+				<div class="mt-3 sm:mt-10">
 					<ul class="flex flex-row items-center">
 						<li class="w-16 h-16 bg-green-600 rounded-full flex justify-center items-center shadow-lg">
 							<i class="fab fa-linkedin-in text-white text-3xl"></i>	
@@ -56,40 +61,44 @@
 				</div>
 			</div>
 			
+			<!-- imagem do header -->
 			<div class="absolute top-10 right-20 hidden xl:block">
 				<img src="images/banner-image.svg" alt="banner image">					
 			</div>
 		</section>
 
 
-
-		<section class="mt-36 flex justify-center items-center">
+		<!-- sobre mim -->
+		<section class="mt-20 sm:mt-36 flex justify-center items-center">
 			<div class="flex flex-col sm:flex-row items-center">
-				<img src="images/avatar.png" alt="avatar">
-				<div class="mt-16 sm:mt-0 ml-10 sm:ml-24 max-w-xs sm:max-w-sm relative">
-					<div class="absolute -top-2 -left-12">
-						<i class="fas fa-quote-left text-3xl text-green-600"></i>
-					</div>
-					
-					<div>
-						<p class="text-gray-500 text-lg sm:text-xl font-thin italic">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia officiis voluptas, iste distinctio, quidem aperiam dolore.
-						</p>
-					</div>
+				<!-- avatar -->
+				<img src="images/avatar.png" alt="avatar" class="w-56 sm:w-80">
+				<div class="mt-16 sm:mt-0 ml-10 sm:ml-24 max-w-xs sm:max-w-sm">
+					<!-- conteudo -->
+					<div class="p-10 sm:p-0 relative">
+						<div class="absolute -top-0 sm:-top-4 -left-2 sm:-left-12">
+							<i class="fas fa-quote-left text-3xl text-green-600"></i>
+						</div>
+						<div>
+							<p class="text-gray-500 text-lg sm:text-xl font-thin italic">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia officiis voluptas, iste distinctio, quidem aperiam dolore.
+							</p>
+						</div>
 
-					<div class="pt-8">
-						<a href="#" class="text-green-600 font-semibold text-lg sm:text-xl">
-							Ver Projetos
-							<i class="fas fa-chevron-down pl-2"></i>
-						</a>	
+						<div class="pt-8">
+							<a href="#" class="text-green-600 font-semibold text-lg sm:text-xl">
+								Ver Projetos
+								<i class="fas fa-chevron-down pl-2"></i>
+							</a>	
+						</div>	
 					</div>
 				</div>		
 			</div>
 		</section>
 
-
-		<section class="mt-36">
-				<div class="flex mx-10 sm:mx-20">
+		<!-- soft-skills -->
+		<section class="mt-20 sm:mt-36">
+				<div class="flex mx-8 sm:mx-20">
 					<div class="py-16 p-10 border border-gray-300 rounded-lg">
 						<ul>
 							<li class="flex flex-row items-center py-3">
