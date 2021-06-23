@@ -11,7 +11,7 @@
 	</head>
 	<body>
 
-		<nav class="py-8 sm:py-10 px-5 sm:px-24 flex flex-row justify-between items-center">
+		<nav class="py-8 sm:py-10 px-5 sm:px-24 fixed flex flex-row justify-between items-center w-full top-0 z-10">
 			<!-- logo -->
 			<img src="images/logo.png" alt="logo" class="w-16 sm:w-20">	
 			
@@ -27,8 +27,8 @@
 		</nav>
 
 		<!-- header -->
-		<section class="mx-10 sm:mx-32">
-			<div class="mt-0 sm:mt-16">
+		<section class="mx-16 sm:mx-32">
+			<div class="mt-24 sm:mt-36">
 				<div class="flex flex-col p-5 sm:p-0">
 					<div class="max-w-sm">
 						<header>
@@ -39,28 +39,25 @@
 					</div>
 				
 					<div class="mt-0 sm:mt-8 max-w-sm">
-						<p class="mt-5 text-xl w-lg sm:w-80 font-normal text-gray-400">
-							Bem vido ao meu portifolio me chamo welder e sou programador full-stack.
-						</p>
-						<button class="mt-8 bg-green-500 text-white rounded-lg py-3 px-10 text-xl font-semibold">
-							Ver Projetos
-						</button>	
+						<div class="mt-5">
+							<p class="text-xl w-lg sm:w-80 font-normal text-gray-400">
+								Bem vido ao meu portifolio me chamo welder e sou programador full-stack.
+							</p>
+							<button class="mt-8 bg-green-500 text-white rounded-lg py-3 px-10 text-lg md:text-xl font-semibold">
+								Ver Projetos
+							</button>	
+						</div>
+							
 					</div>
 				</div>
 
 				<!-- redes sociais -->
-				<div class="fixed top-96 left-5">
-					<ul class="flex flex-col items-center h-56 justify-around items-center">
-						<li>
-							<i class="fab fa-linkedin-in text-gray-400 text-4xl"></i>	
-						</li>
-						<li>
-							<i class="fab fa-github text-gray-400 text-4xl"></i>	
-						</li>
-						<li>
-							<i class="fab fa-google-plus-g text-gray-400 text-4xl pl-4"></i>	
-						</li>
-					</ul>
+				<div class="fixed top-80 left-1 md:left-5 z-10">
+					<div class="flex flex-col items-center h-36 md:h-56 justify-around items-center">
+						<i class="fab fa-linkedin-in text-gray-400 text-3xl md:text-4xl"></i>	
+						<i class="fab fa-github text-gray-400 text-3xl md:text-4xl"></i>	
+						<i class="fab fa-google-plus-g text-gray-400 text-3xl md:text-4xl pl-4"></i>
+					</div>		
 				</div>
 			</div>
 			
@@ -78,17 +75,17 @@
 				<img src="images/avatar.png" alt="avatar" class="w-56 sm:w-80">
 				<div class="mt-16 sm:mt-0 ml-10 sm:ml-24 max-w-xs sm:max-w-sm">
 					<!-- conteudo -->
-					<div class="p-10 sm:p-0 relative">
-						<div class="absolute -top-0 sm:-top-4 -left-2 sm:-left-12">
+					<div class="pt-0 md:pt-10 p-10 sm:p-0 relative">
+						<div class="absolute -top-5 sm:-top-0 left-5 sm:-left-12">
 							<i class="fas fa-quote-left text-3xl text-green-600"></i>
 						</div>
 						<div>
-							<p class="text-gray-500 text-lg sm:text-xl font-thin italic">
+							<p class="text-gray-500 text-lg sm:text-xl font-thin italic px-5 md:px-0">
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia officiis voluptas, iste distinctio, quidem aperiam dolore.
 							</p>
 						</div>
 
-						<div class="pt-8">
+						<div class="pt-8 px-5 md:px-0">
 							<a href="#" class="text-green-600 font-semibold text-lg sm:text-xl">
 								Ver Projetos
 								<i class="fas fa-chevron-down pl-2"></i>
@@ -101,7 +98,7 @@
 
 		<!-- soft-skills -->
 		<section class="mt-20 sm:mt-36">
-				<div class="flex mx-8 sm:mx-20">
+				<div class="flex mx-5 sm:mx-20">
 					<div class="py-16 p-10 border border-gray-300 rounded-lg">
 						<ul>
 							<li class="flex flex-row items-center py-3">
